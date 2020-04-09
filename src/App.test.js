@@ -31,7 +31,8 @@ const { getByText } = render(<App />);
 
 
 
-  
+  //query Functions
   const linkElement = getByText(/add new animal/i);
+  //expectations
   expect(linkElement).toBeInTheDocument();
 });
